@@ -90,3 +90,5 @@ async def user(id: int):
             found = True
     if not found:
         return {"error": "User not deleted"}
+
+## for index, saved_user in enumerate(users_list):: Este es un bucle for que itera a través de la lista users_list junto con su índice. enumerate() es una función que toma una secuencia (en este caso, users_list) y devuelve pares (índice, elemento) en cada iteración. El índice representa la posición del elemento en la lista, y saved_user es el usuario almacenado en esa posición.
